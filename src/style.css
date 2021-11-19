@@ -1,3 +1,6 @@
-h1 {
-  color: blue;
+.weather {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 2px solid #ddae;
 }
