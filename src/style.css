@@ -15,7 +15,7 @@ ul {
 }
 li {
   list-style: none;
-  color: olive;
+  color: rgb(34, 34, 4);
   font-size: 16px;
   font-weight: 100;
 }
@@ -25,7 +25,7 @@ li {
 }
 .weather {
   padding: 20px;
-  border: 2px solid rgba(240, 240, 224, 0.933);
+  border: 2px solid rgba(12, 79, 180, 0.933);
   border-radius: 15px;
   background: url(https://images.pexels.com/photos/2908983/pexels-photo-2908983.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
 }
