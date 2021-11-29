@@ -41,20 +41,30 @@
             </div>
           </form>
 
-          <h1>London</h1>
-          <ul>
-            <li>Friday 06:00</li>
-            <li>Cloudy</li>
-          </ul>
+          <div class="overview">
+            <h1 id="city"></h1>
+            <ul>
+              <li id="date"></li>
+              <li id="description"></li>
+            </ul>
+          </div>
           <div class="row">
             <div class="col-6">
-              <img src="img/cloud.png" alt="Cloudy" width="70" />
-              11°C | °F
+              <div class="clearfix weather-temperature">
+                <img src="" alt="rainy" id="icon" class="float-left" />
+                <span class="float-left">
+                  <span class="temperature" id="temperature"></span
+                  ><span class="units"
+                    ><a href="#" id="celsius-link" class="active">°C</a> |
+                    <a href="#" id="fahrenheit-link">°F</a></span
+                  >
+                </span>
+              </div>
             </div>
             <div class="col-6">
               <ul>
-                <li>Humidity : 87%</li>
-                <li>Wind : 6 km/h</li>
+                <li>Humidity: <span id="humidity">73</span>%</li>
+                <li>Wind: <span id="windSpeed">2</span>Km/h</li>
               </ul>
             </div>
           </div>
